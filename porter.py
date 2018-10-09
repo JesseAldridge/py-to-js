@@ -7,7 +7,6 @@ with open('for-loop.py') as f:
 
 tree = ast.parse(text)
 
-
 def walk(node):
   ast_type = type(node).__name__
   if ast_type == 'Module':
